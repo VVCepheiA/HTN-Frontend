@@ -1,3 +1,17 @@
+.tabarea{
+  margin-top:22px; 
+}
+
+.tabarea .tabs dd>a{
+  border: 1px solid rgb(248, 220, 220);
+  background: none;
+  color: #fa6b55;
+}
+
+.tabarea .tabs dd.active a, .tabarea .tabs dd>a:hover{
+  color: white;
+}
+
 .simple-search{
   margin-top: 20px;
   opacity: 0.8;

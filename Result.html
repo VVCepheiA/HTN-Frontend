@@ -4,7 +4,7 @@
 <!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
   <head>
     <meta charset="utf-8">
-    <title>Frio Creative HTML Template</title>
+    <title>Where2go</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">   
 
@@ -35,86 +35,76 @@
     <div id="main-container">
 
 	<a id="home-scroll"></a>
+
 	
 	<div id="navigation">
 		<div class="row">
 			<div class="large-12 columns">
-				<nav class="top-bar" data-topbar>
+				<nav class="top-bar" data-topbar >
 				  <ul class="title-area">
 				    <li>
 				      <div id="logo">
-								<h1><a href="index.html"><i class="fa fa-dot-circle-o"></i> Frio</a></h1>
+								<h1><a href="index.html"><i class="fa fa-dot-circle-o"></i> Where2go</a></h1>
 							</div>
 				    </li>
 				    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
 				  </ul>
 
 				  <section class="top-bar-section">
-				    <ul id="menu" class="right"> 
-							<li><a class="scroll" href="#home-scroll">Home</a></li>
-							<li><a class="scroll" href="#about-scroll">About</a></li>
-							<li><a class="scroll" href="#services-scroll">Services</a></li>
-							<li><a class="scroll" href="#work-scroll">Work</a></li>
-							<li><a class="scroll" href="blog.html">Blog</a></li>
-							<li><a class="scroll" href="#contact-scroll">Contact</a></li>
-						</ul>
-				  </section>
+                    <ul id="menu" class="right"> 
+                       <li><a class="scroll" href="#home-scroll">Home</a></li>
+                       <li><a class="scroll" href="#about-scroll">About</a></li>
+                       <li><a class="scroll" href="#work-scroll">Advanced</a></li>
+                     </ul>
+                  </section>
 				</nav>
 			</div>
 		</div>
 	</div>
-    <div class="item-data project-page clearfix element_fade_in">
 
-    <!-- Project Close Button -->
-    <ul id="project-page-button" class="clearfix">            	
-        <li><a id="project_close" class="icon-close" href="#" title="Close Project"></a></li>
-    </ul>    
+    <div class="item-data project-page clearfix element_fade_in">  
+
+
+    <div id="blog-header" style="background-image: url('assets/images/b1.jpg');">
+        <h1 class="page-title">Enjoy Your JOURNEY</h1>
+    </div>
+        
         
     <div class="row">
     <!-- Container-->    
     <div class="columns large-12">
-    
-    
-    
-        <!-- Section Title -->
-        <div class="project-section-title">
-            <h1>Bearing</h1>    
-            <p>Branding / Graphic</p>
-        </div>				
-        <!--/Section Title -->
+    <div class = "tabarea">
         
-        
-        
-        <!-- Project Slider -->
-        <div class="project-image-slider">
-            <ul class="project-slider">
-                <li><img src="assets/images/projects/normal1.jpg" alt="" /></li>
-                <li><img src="assets/images/projects/normal2.jpg" alt="" /></li>
-            </ul>
-        </div>
-        <!--/Project Slider -->
-        
-        
-        
-        <!-- Project Description -->
-        <div class="project-description row">
-        
-            <div class="large-6 columns">
-            <h5>Overview</h5>
-              
-            <p>Donec sed nunc risus, ac vehicula turpis. Duis fringilla fringilla lorem, at ultricies tortor elementum sed. </p> 		
-            </div>        
-            
-            
-            <div class="large-6 columns">
-            <h5>Case Study</h5>
+            <dl class="tabs" data-tab>
+            <dd class="active"><a href="#panel1">Day1</a></dd>
+              <dd><a href="#panel2">Day 2</a></dd>
+              <dd><a href="#panel3">Day 3</a></dd>
+              <dd><a href="#panel4">Day 4</a></dd>
+          </dl>
+          <div class="tabs-content">
+              <div class="content active" id="panel1">
+                <div id="map_canvas"></div>
+                </br>
+                
+                <h3>TORONTO</h3>
 
-            <p>Duis fringilla fringilla lorem, at ultricies tortor elementum sed. Fusce non ligula tortor, ut hendrerit magna.</p> 		
-            </div>        
+                
 
-        
+
+            </div>
+
+            <div class="content" id="panel2">
+                <p>This is the second panel of the basic tab example. This is the second panel of the basic tab example.</p>
+            </div>
+            <div class="content" id="panel3">
+                <div id="map_canvas"></div>
+                <p>This is the third panel of the basic tab example. This is the third panel of the basic tab example.</p>
+            </div>
+            <div class="content" id="panel4">
+                <p>This is the fourth panel of the basic tab example. This is the fourth panel of the basic tab example.</p>
+            </div>
         </div>
-        <!--/Project Description -->
+    </div>
         
         
         <!-- Visit Project Button -->
@@ -158,14 +148,6 @@
       $(document).foundation();
     </script>
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='//www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
+
   </body>
 </html>
