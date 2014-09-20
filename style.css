@@ -1,3 +1,7 @@
+#advance-add{
+  color:rgba(255,255,255,0.7);
+}
+
 .tabarea{
   margin-top:22px; 
 }
@@ -409,7 +413,7 @@ button,.button {
 }
 
 .icon-with-bg {
-  background: #fa6b55;
+  background: #7E6B99;
   border: 0;
 }
 
